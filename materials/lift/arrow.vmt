@@ -1,0 +1,19 @@
+"unlitgeneric"
+{
+	"$basetexture" 			"lift/arrow"
+	"$vertexcolor" 			1
+	"$vertexalpha" 			1
+
+	"$model"				1
+	"$spriteorientation"	4
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"			"$baseTexture"	
+			"animatedtextureframenumvar"	"$frame"
+			"animatedtextureframerate" 		10.00
+		}
+	}
+}
