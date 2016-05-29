@@ -69,7 +69,7 @@ function ENT:Draw()
 			surface.SetDrawColor(255,0,0,255);
 			surface.DrawRect(-2,-4,4,8);
 			surface.SetDrawColor(0,0,0,255);
-			surface.SetTexture()
+			surface.SetTexture(0)
 			ipoly[3].y = -4 + 8 * time;
 			ipoly[4].y = -4 + 8 * time;
 			surface.DrawPoly(ipoly);

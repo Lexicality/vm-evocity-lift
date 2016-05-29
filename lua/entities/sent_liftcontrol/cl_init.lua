@@ -32,7 +32,7 @@ function ENT:Draw()
 	--[[ Start 3D2Din at 25% of normal size ]]--
 	cam.Start3D2D(self.Entity:GetPos(), self.Entity:GetAngles() ,0.25)
 		surface.SetFont"DefaultFixed"						-- We'll be using this font throught, for it's LED style.
-		surface.SetTexture();								-- ensure that no one's sneakily thrown a texture at us this frame that would mess up the pi.
+		surface.SetTexture(0);								-- ensure that no one's sneakily thrown a texture at us this frame that would mess up the pi.
 		surface.SetDrawColor(200,200,200,255)				-- Choose a light gray (HEY GARRY MAKE THIS USE FUCKING COLOUR OBJECTS MAN)
 		surface.DrawRect(-50,-25,105,50);					-- Draw the main background
 		for k,v in ipairs(posse) do							-- Loop through each of the buttons
