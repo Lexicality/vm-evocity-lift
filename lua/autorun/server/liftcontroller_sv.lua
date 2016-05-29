@@ -2,7 +2,7 @@
 	~ Lift Controller ~
 	~ Lexi ~
 --]]
-require"tracktrain"
+-- require"tracktrain"
 
 AddCSLuaFile("autorun/liftcontroller.lua");
 AddCSLuaFile("autorun/client/liftcontroller_cl.lua");
